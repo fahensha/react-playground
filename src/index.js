@@ -10,7 +10,8 @@ const root = ReactDOM.createRoot(el);
 
 //make an element
 function App() {
-    return <h1>What is up my dudes?</h1>
+    const message = 'Surprisingly, react cannot render js objects! stick to strings and numbers instead'
+    return <h1>{message}</h1>
 }
 
 //render that element using react dom
